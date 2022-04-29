@@ -44,6 +44,14 @@ public class BoxTester {
                 System.out.println(box);
                 break;
             }
+            for (int i = 0; i < 3; i++) {
+                boxes.get(i).print;
+
+            }
+            for(Box b :boxes){
+                b.print();
+            }
+
         }
     }
 }
